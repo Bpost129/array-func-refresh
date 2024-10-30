@@ -7,9 +7,15 @@ const splicer = (x, y) => {
   return spliced
 }
 
-splicer(0, 2)
-splicer(0, 1)
+// splicer(0, 2)
+// splicer(0, 1)
 
+
+function computeArea(width, height) {
+  console.log(`The area of a rectangle with a width of ${width} and a height of ${height} is ${width * height} square units!`)
+}
+
+computeArea(5, 10)
 
 
 const greenbean = (food) => {
